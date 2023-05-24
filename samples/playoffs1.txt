@@ -1,0 +1,441 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "totalItems" : 1,
+  "totalEvents" : 0,
+  "totalGames" : 1,
+  "totalMatches" : 0,
+  "metaData" : {
+    "timeStamp" : "20230524_050908"
+  },
+  "wait" : 10,
+  "dates" : [ {
+    "date" : "2023-05-23",
+    "totalItems" : 1,
+    "totalEvents" : 0,
+    "totalGames" : 1,
+    "totalMatches" : 0,
+    "games" : [ {
+      "gamePk" : 2022030323,
+      "link" : "/api/v1/game/2022030323/feed/live",
+      "gameType" : "P",
+      "season" : "20222023",
+      "gameDate" : "2023-05-24T00:00:00Z",
+      "status" : {
+        "abstractGameState" : "Final",
+        "codedGameState" : "7",
+        "detailedState" : "Final",
+        "statusCode" : "7",
+        "startTimeTBD" : false
+      },
+      "teams" : {
+        "away" : {
+          "leagueRecord" : {
+            "wins" : 11,
+            "losses" : 3,
+            "type" : "league"
+          },
+          "score" : 4,
+          "team" : {
+            "id" : 54,
+            "name" : "Vegas Golden Knights",
+            "link" : "/api/v1/teams/54"
+          }
+        },
+        "home" : {
+          "leagueRecord" : {
+            "wins" : 8,
+            "losses" : 8,
+            "type" : "league"
+          },
+          "score" : 0,
+          "team" : {
+            "id" : 25,
+            "name" : "Dallas Stars",
+            "link" : "/api/v1/teams/25"
+          }
+        }
+      },
+      "linescore" : {
+        "currentPeriod" : 3,
+        "currentPeriodOrdinal" : "3rd",
+        "currentPeriodTimeRemaining" : "Final",
+        "periods" : [ {
+          "periodType" : "REGULAR",
+          "startTime" : "2023-05-24T00:15:44Z",
+          "endTime" : "2023-05-24T00:55:32Z",
+          "num" : 1,
+          "ordinalNum" : "1st",
+          "home" : {
+            "goals" : 0,
+            "shotsOnGoal" : 11,
+            "rinkSide" : "right"
+          },
+          "away" : {
+            "goals" : 3,
+            "shotsOnGoal" : 10,
+            "rinkSide" : "left"
+          }
+        }, {
+          "periodType" : "REGULAR",
+          "startTime" : "2023-05-24T01:14:28Z",
+          "endTime" : "2023-05-24T02:09:10Z",
+          "num" : 2,
+          "ordinalNum" : "2nd",
+          "home" : {
+            "goals" : 0,
+            "shotsOnGoal" : 9,
+            "rinkSide" : "left"
+          },
+          "away" : {
+            "goals" : 1,
+            "shotsOnGoal" : 4,
+            "rinkSide" : "right"
+          }
+        }, {
+          "periodType" : "REGULAR",
+          "startTime" : "2023-05-24T02:09:56Z",
+          "endTime" : "2023-05-24T02:44:43Z",
+          "num" : 3,
+          "ordinalNum" : "3rd",
+          "home" : {
+            "goals" : 0,
+            "shotsOnGoal" : 14,
+            "rinkSide" : "right"
+          },
+          "away" : {
+            "goals" : 0,
+            "shotsOnGoal" : 2,
+            "rinkSide" : "left"
+          }
+        } ],
+        "shootoutInfo" : {
+          "away" : {
+            "scores" : 0,
+            "attempts" : 0
+          },
+          "home" : {
+            "scores" : 0,
+            "attempts" : 0
+          }
+        },
+        "teams" : {
+          "home" : {
+            "team" : {
+              "id" : 25,
+              "name" : "Dallas Stars",
+              "link" : "/api/v1/teams/25"
+            },
+            "goals" : 0,
+            "shotsOnGoal" : 34,
+            "goaliePulled" : false,
+            "numSkaters" : 5,
+            "powerPlay" : false
+          },
+          "away" : {
+            "team" : {
+              "id" : 54,
+              "name" : "Vegas Golden Knights",
+              "link" : "/api/v1/teams/54"
+            },
+            "goals" : 4,
+            "shotsOnGoal" : 16,
+            "goaliePulled" : false,
+            "numSkaters" : 5,
+            "powerPlay" : false
+          }
+        },
+        "powerPlayStrength" : "Even",
+        "hasShootout" : false,
+        "intermissionInfo" : {
+          "intermissionTimeRemaining" : 0,
+          "intermissionTimeElapsed" : 0,
+          "inIntermission" : false
+        },
+        "powerPlayInfo" : {
+          "situationTimeRemaining" : 0,
+          "situationTimeElapsed" : 1114,
+          "inSituation" : false
+        }
+      },
+      "scoringPlays" : [ {
+        "players" : [ {
+          "player" : {
+            "id" : 8476539,
+            "fullName" : "Jonathan Marchessault",
+            "link" : "/api/v1/people/8476539"
+          },
+          "playerType" : "Scorer",
+          "seasonTotal" : 7
+        }, {
+          "player" : {
+            "id" : 8478403,
+            "fullName" : "Jack Eichel",
+            "link" : "/api/v1/people/8478403"
+          },
+          "playerType" : "Assist",
+          "seasonTotal" : 10
+        }, {
+          "player" : {
+            "id" : 8477964,
+            "fullName" : "Ivan Barbashev",
+            "link" : "/api/v1/people/8477964"
+          },
+          "playerType" : "Assist",
+          "seasonTotal" : 7
+        }, {
+          "player" : {
+            "id" : 8479979,
+            "fullName" : "Jake Oettinger",
+            "link" : "/api/v1/people/8479979"
+          },
+          "playerType" : "Goalie"
+        } ],
+        "result" : {
+          "event" : "Goal",
+          "eventCode" : "DAL151",
+          "eventTypeId" : "GOAL",
+          "description" : "Jonathan Marchessault (7) Snap Shot, assists: Jack Eichel (10), Ivan Barbashev (7)",
+          "secondaryType" : "Snap Shot",
+          "strength" : {
+            "code" : "EVEN",
+            "name" : "Even"
+          },
+          "gameWinningGoal" : true,
+          "emptyNet" : false
+        },
+        "about" : {
+          "eventIdx" : 6,
+          "eventId" : 151,
+          "period" : 1,
+          "periodType" : "REGULAR",
+          "ordinalNum" : "1st",
+          "periodTime" : "01:11",
+          "periodTimeRemaining" : "18:49",
+          "dateTime" : "2023-05-24T00:16:56Z",
+          "goals" : {
+            "away" : 1,
+            "home" : 0
+          }
+        },
+        "coordinates" : {
+          "x" : 75.0,
+          "y" : 15.0
+        },
+        "team" : {
+          "id" : 54,
+          "name" : "Vegas Golden Knights",
+          "link" : "/api/v1/teams/54"
+        }
+      }, {
+        "players" : [ {
+          "player" : {
+            "id" : 8477964,
+            "fullName" : "Ivan Barbashev",
+            "link" : "/api/v1/people/8477964"
+          },
+          "playerType" : "Scorer",
+          "seasonTotal" : 5
+        }, {
+          "player" : {
+            "id" : 8478462,
+            "fullName" : "Nicolas Roy",
+            "link" : "/api/v1/people/8478462"
+          },
+          "playerType" : "Assist",
+          "seasonTotal" : 5
+        }, {
+          "player" : {
+            "id" : 8479979,
+            "fullName" : "Jake Oettinger",
+            "link" : "/api/v1/people/8479979"
+          },
+          "playerType" : "Goalie"
+        } ],
+        "result" : {
+          "event" : "Goal",
+          "eventCode" : "DAL158",
+          "eventTypeId" : "GOAL",
+          "description" : "Ivan Barbashev (5) Wrist Shot, assists: Nicolas Roy (5)",
+          "secondaryType" : "Wrist Shot",
+          "strength" : {
+            "code" : "PPG",
+            "name" : "Power Play"
+          },
+          "gameWinningGoal" : false,
+          "emptyNet" : false
+        },
+        "about" : {
+          "eventIdx" : 24,
+          "eventId" : 158,
+          "period" : 1,
+          "periodType" : "REGULAR",
+          "ordinalNum" : "1st",
+          "periodTime" : "05:57",
+          "periodTimeRemaining" : "14:03",
+          "dateTime" : "2023-05-24T00:26:42Z",
+          "goals" : {
+            "away" : 2,
+            "home" : 0
+          }
+        },
+        "coordinates" : {
+          "x" : 61.0,
+          "y" : 12.0
+        },
+        "team" : {
+          "id" : 54,
+          "name" : "Vegas Golden Knights",
+          "link" : "/api/v1/teams/54"
+        }
+      }, {
+        "players" : [ {
+          "player" : {
+            "id" : 8477478,
+            "fullName" : "William Carrier",
+            "link" : "/api/v1/people/8477478"
+          },
+          "playerType" : "Scorer",
+          "seasonTotal" : 1
+        }, {
+          "player" : {
+            "id" : 8476927,
+            "fullName" : "Teddy Blueger",
+            "link" : "/api/v1/people/8476927"
+          },
+          "playerType" : "Assist",
+          "seasonTotal" : 1
+        }, {
+          "player" : {
+            "id" : 8478434,
+            "fullName" : "Keegan Kolesar",
+            "link" : "/api/v1/people/8478434"
+          },
+          "playerType" : "Assist",
+          "seasonTotal" : 2
+        }, {
+          "player" : {
+            "id" : 8479979,
+            "fullName" : "Jake Oettinger",
+            "link" : "/api/v1/people/8479979"
+          },
+          "playerType" : "Goalie"
+        } ],
+        "result" : {
+          "event" : "Goal",
+          "eventCode" : "DAL161",
+          "eventTypeId" : "GOAL",
+          "description" : "William Carrier (1) Backhand, assists: Teddy Blueger (1), Keegan Kolesar (2)",
+          "secondaryType" : "Backhand",
+          "strength" : {
+            "code" : "EVEN",
+            "name" : "Even"
+          },
+          "gameWinningGoal" : false,
+          "emptyNet" : false
+        },
+        "about" : {
+          "eventIdx" : 33,
+          "eventId" : 161,
+          "period" : 1,
+          "periodType" : "REGULAR",
+          "ordinalNum" : "1st",
+          "periodTime" : "07:10",
+          "periodTimeRemaining" : "12:50",
+          "dateTime" : "2023-05-24T00:29:18Z",
+          "goals" : {
+            "away" : 3,
+            "home" : 0
+          }
+        },
+        "coordinates" : {
+          "x" : 72.0,
+          "y" : -21.0
+        },
+        "team" : {
+          "id" : 54,
+          "name" : "Vegas Golden Knights",
+          "link" : "/api/v1/teams/54"
+        }
+      }, {
+        "players" : [ {
+          "player" : {
+            "id" : 8474565,
+            "fullName" : "Alex Pietrangelo",
+            "link" : "/api/v1/people/8474565"
+          },
+          "playerType" : "Scorer",
+          "seasonTotal" : 1
+        }, {
+          "player" : {
+            "id" : 8477964,
+            "fullName" : "Ivan Barbashev",
+            "link" : "/api/v1/people/8477964"
+          },
+          "playerType" : "Assist",
+          "seasonTotal" : 8
+        }, {
+          "player" : {
+            "id" : 8478462,
+            "fullName" : "Nicolas Roy",
+            "link" : "/api/v1/people/8478462"
+          },
+          "playerType" : "Assist",
+          "seasonTotal" : 6
+        }, {
+          "player" : {
+            "id" : 8475809,
+            "fullName" : "Scott Wedgewood",
+            "link" : "/api/v1/people/8475809"
+          },
+          "playerType" : "Goalie"
+        } ],
+        "result" : {
+          "event" : "Goal",
+          "eventCode" : "DAL455",
+          "eventTypeId" : "GOAL",
+          "description" : "Alex Pietrangelo (1) Wrist Shot, assists: Ivan Barbashev (8), Nicolas Roy (6)",
+          "secondaryType" : "Wrist Shot",
+          "strength" : {
+            "code" : "EVEN",
+            "name" : "Even"
+          },
+          "gameWinningGoal" : false,
+          "emptyNet" : false
+        },
+        "about" : {
+          "eventIdx" : 142,
+          "eventId" : 455,
+          "period" : 2,
+          "periodType" : "REGULAR",
+          "ordinalNum" : "2nd",
+          "periodTime" : "08:28",
+          "periodTimeRemaining" : "11:32",
+          "dateTime" : "2023-05-24T01:26:28Z",
+          "goals" : {
+            "away" : 4,
+            "home" : 0
+          }
+        },
+        "coordinates" : {
+          "x" : -45.0,
+          "y" : 10.0
+        },
+        "team" : {
+          "id" : 54,
+          "name" : "Vegas Golden Knights",
+          "link" : "/api/v1/teams/54"
+        }
+      } ],
+      "venue" : {
+        "id" : 5019,
+        "name" : "American Airlines Center",
+        "link" : "/api/v1/venues/5019"
+      },
+      "content" : {
+        "link" : "/api/v1/game/2022030323/content"
+      }
+    } ],
+    "events" : [ ],
+    "matches" : [ ]
+  } ]
+}
